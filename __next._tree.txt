@@ -1,0 +1,5 @@
+:HL["/_next/static/chunks/3-b1mutd2gisb.css","style"]
+:HL["/_next/static/media/c6cbd2fc23005612-s.p.3d-vk1pyepd4u.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/certificazioni/tesla-powerwall-certified-installer.png","image"]
+:HL["/loghi/logo-horizontal.png","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"awYW_YMnMEkk2vURfgNM-"}
