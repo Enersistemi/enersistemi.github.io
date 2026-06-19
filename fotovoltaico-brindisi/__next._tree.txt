@@ -1,5 +1,5 @@
-:HL["/_next/static/chunks/19xlq-1w4hq83.css","style"]
+:HL["/_next/static/chunks/0cb7aidwy49pw.css","style"]
 :HL["/_next/static/media/c6cbd2fc23005612-s.p.3d-vk1pyepd4u.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/foto/hero-centro-storico.webp","image",{"fetchPriority":"high"}]
 :HL["/loghi/logo-horizontal.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"fotovoltaico-brindisi","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"eALG0CK3C2AXbJjSRNtD1"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"fotovoltaico-brindisi","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"el4L1t9lxJsyZNF4JKqZL"}
