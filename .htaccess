@@ -2,8 +2,40 @@
 # Questo file finisce nella cartella out/ insieme al sito esportato.
 # Su Vercel/Cloudflare viene semplicemente ignorato.
 
-# --- Indirizzo canonico: sempre https://www.enersistemi.com ---
 RewriteEngine On
+
+# --- Redirect dal vecchio sito WordPress (migrazione 2026) ---
+# Ogni indirizzo che Google conosceva del WordPress risponde 301 verso la pagina
+# nuova più vicina per argomento (mai un 404); la meccanica di WordPress risponde
+# 410 «sparito». Mappa e motivazioni: PIANO_MIGRAZIONE_SERVERPLAN.md §5.
+# Le destinazioni sono assolute (https://www…) così un vecchio link http://enersistemi.com/…
+# fa UN salto solo. Il flag NE serve alle àncore (#servizi): senza, Apache scriverebbe %23.
+# L'ordine conta: le righe specifiche stanno PRIMA delle generiche.
+# Verifica dopo il caricamento: python3 scripts/verifica_redirect.py
+RewriteRule ^(chi-siamo|enersistemi|our-team(/.*)?)/?$ https://www.enersistemi.com/ [R=301,L,NE]
+RewriteRule ^(impianti-fotovoltaici-e-batterie-di-accumulo|wallbox-di-ricarica-per-veicoli-elettrici|impianti-elettrici|monitoraggio-e-manutenzione)/?$ https://www.enersistemi.com/#servizi [R=301,L,NE]
+RewriteRule ^batterie-di-accumulo-tesla/?$ https://www.enersistemi.com/tesla-powerwall/ [R=301,L,NE]
+RewriteRule ^gestione-pratiche-incentivi-e-detrazioni/?$ https://www.enersistemi.com/#agevolazioni [R=301,L,NE]
+RewriteRule ^(consulenza-energetica-e-preventivi|contattaci)/?$ https://www.enersistemi.com/#contatti [R=301,L,NE]
+RewriteRule ^(certificazioni-e-aggiornamenti-professionali|partner)/?$ https://www.enersistemi.com/#certificazioni [R=301,L,NE]
+RewriteRule ^(certificazione-energetica-ape-aqe|sicurezza-videosorveglianza-wi-fi)/?$ https://www.enersistemi.com/ [R=301,L,NE]
+RewriteRule ^portfolio/melendugno-3kwp/?$ https://www.enersistemi.com/fotovoltaico-lecce/ [R=301,L,NE]
+RewriteRule ^(impianti-realizzati-portfolio-clienti|portfolio|portfolio/909)/?$ https://www.enersistemi.com/#mappa [R=301,L,NE]
+RewriteRule ^portfolio/.+$ https://www.enersistemi.com/fotovoltaico-brindisi/ [R=301,L,NE]
+RewriteRule ^2019/05/31/usare-l-energia-solare-anche-di-notte-ora-e-possibile/?$ https://www.enersistemi.com/tesla-powerwall/ [R=301,L,NE]
+RewriteRule ^(2017/01/07/certificato-installatore-tesla|2017/10/16/installatore-certificato-solaredge-2017|2012/10/31/fronius-service-partner-plus|2018/07/03/aggiornamento-nuove-tecnologie-per-lindipendenza-energetica)/?$ https://www.enersistemi.com/#certificazioni [R=301,L,NE]
+RewriteRule ^2019/04/10/fotovoltaico-per-le-aziende-manutenzione-e-monitoraggio/?$ https://www.enersistemi.com/#servizi [R=301,L,NE]
+RewriteRule ^(2019/01/16/obbligo-energie-rinnovabili-decreto|2019/03/19/pannelli-fotovoltaici-gratuiti-per-le-famiglie-meno-abbienti)/?$ https://www.enersistemi.com/#agevolazioni [R=301,L,NE]
+RewriteRule ^(2019/02/13/tanti-buoni-motivi-per-investire-nel-fotovoltaico|2019/02/09/3-miti-da-sfatare-sul-fotovoltaico)/?$ https://www.enersistemi.com/#faq [R=301,L,NE]
+RewriteRule ^(novita-e-opportunita|category/.*|20[0-9][0-9]/.*|page/[0-9]+)/?$ https://www.enersistemi.com/ [R=301,L,NE]
+RewriteRule ^privacy-policy/?$ https://www.enersistemi.com/privacy/ [R=301,L,NE]
+# Meccanica di WordPress: sparita per sempre (410)
+RewriteRule ^(section[0-9].*|slider|feed|comments/feed|wp-json.*|xmlrpc\.php|wp-admin.*|wp-login\.php|wp-includes/.*|wp-content/.*)/?$ - [G,L]
+# Ricerca e filtri del portfolio (arrivavano come ?s= ?vp_filter= ?vp_page=): spariti
+RewriteCond %{QUERY_STRING} (^|&)(s|vp_filter|vp_page)= [NC]
+RewriteRule ^$ - [G,L]
+
+# --- Indirizzo canonico: sempre https://www.enersistemi.com ---
 RewriteCond %{HTTPS} off [OR]
 RewriteCond %{HTTP_HOST} !^www\. [NC]
 RewriteCond %{HTTP_HOST} ^(?:www\.)?(.+)$ [NC]

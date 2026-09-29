@@ -1,39 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 <url>
-<loc>https://www.enersistemi.com</loc>
-<lastmod>2026-06-19T11:44:57.623Z</lastmod>
+<loc>https://www.enersistemi.com/</loc>
+<xhtml:link rel="alternate" hreflang="it-IT" href="https://www.enersistemi.com/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://www.enersistemi.com/en/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://www.enersistemi.com/" />
+<lastmod>2026-09-29T09:24:58.427Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>1</priority>
 </url>
 <url>
-<loc>https://www.enersistemi.com/tesla-powerwall</loc>
-<lastmod>2026-06-19T11:44:57.623Z</lastmod>
+<loc>https://www.enersistemi.com/en/</loc>
+<xhtml:link rel="alternate" hreflang="it-IT" href="https://www.enersistemi.com/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://www.enersistemi.com/en/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://www.enersistemi.com/" />
+<lastmod>2026-09-29T09:24:58.427Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://www.enersistemi.com/tesla-powerwall/</loc>
+<xhtml:link rel="alternate" hreflang="it-IT" href="https://www.enersistemi.com/tesla-powerwall/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://www.enersistemi.com/en/tesla-powerwall/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://www.enersistemi.com/tesla-powerwall/" />
+<lastmod>2026-09-29T09:24:58.427Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>https://www.enersistemi.com/fotovoltaico-brindisi</loc>
-<lastmod>2026-06-19T11:44:57.623Z</lastmod>
+<loc>https://www.enersistemi.com/en/tesla-powerwall/</loc>
+<xhtml:link rel="alternate" hreflang="it-IT" href="https://www.enersistemi.com/tesla-powerwall/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://www.enersistemi.com/en/tesla-powerwall/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://www.enersistemi.com/tesla-powerwall/" />
+<lastmod>2026-09-29T09:24:58.427Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>https://www.enersistemi.com/fotovoltaico-taranto</loc>
-<lastmod>2026-06-19T11:44:57.623Z</lastmod>
+<loc>https://www.enersistemi.com/fotovoltaico-brindisi/</loc>
+<xhtml:link rel="alternate" hreflang="it-IT" href="https://www.enersistemi.com/fotovoltaico-brindisi/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://www.enersistemi.com/en/solar-panels-brindisi/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://www.enersistemi.com/fotovoltaico-brindisi/" />
+<lastmod>2026-09-29T09:24:58.427Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>https://www.enersistemi.com/fotovoltaico-bari</loc>
-<lastmod>2026-06-19T11:44:57.623Z</lastmod>
+<loc>https://www.enersistemi.com/en/solar-panels-brindisi/</loc>
+<xhtml:link rel="alternate" hreflang="it-IT" href="https://www.enersistemi.com/fotovoltaico-brindisi/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://www.enersistemi.com/en/solar-panels-brindisi/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://www.enersistemi.com/fotovoltaico-brindisi/" />
+<lastmod>2026-09-29T09:24:58.427Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>https://www.enersistemi.com/fotovoltaico-lecce</loc>
-<lastmod>2026-06-19T11:44:57.623Z</lastmod>
+<loc>https://www.enersistemi.com/fotovoltaico-taranto/</loc>
+<xhtml:link rel="alternate" hreflang="it-IT" href="https://www.enersistemi.com/fotovoltaico-taranto/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://www.enersistemi.com/en/solar-panels-taranto/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://www.enersistemi.com/fotovoltaico-taranto/" />
+<lastmod>2026-09-29T09:24:58.427Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.enersistemi.com/en/solar-panels-taranto/</loc>
+<xhtml:link rel="alternate" hreflang="it-IT" href="https://www.enersistemi.com/fotovoltaico-taranto/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://www.enersistemi.com/en/solar-panels-taranto/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://www.enersistemi.com/fotovoltaico-taranto/" />
+<lastmod>2026-09-29T09:24:58.427Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.enersistemi.com/fotovoltaico-bari/</loc>
+<xhtml:link rel="alternate" hreflang="it-IT" href="https://www.enersistemi.com/fotovoltaico-bari/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://www.enersistemi.com/en/solar-panels-bari/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://www.enersistemi.com/fotovoltaico-bari/" />
+<lastmod>2026-09-29T09:24:58.427Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.enersistemi.com/en/solar-panels-bari/</loc>
+<xhtml:link rel="alternate" hreflang="it-IT" href="https://www.enersistemi.com/fotovoltaico-bari/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://www.enersistemi.com/en/solar-panels-bari/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://www.enersistemi.com/fotovoltaico-bari/" />
+<lastmod>2026-09-29T09:24:58.427Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.enersistemi.com/fotovoltaico-lecce/</loc>
+<xhtml:link rel="alternate" hreflang="it-IT" href="https://www.enersistemi.com/fotovoltaico-lecce/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://www.enersistemi.com/en/solar-panels-lecce/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://www.enersistemi.com/fotovoltaico-lecce/" />
+<lastmod>2026-09-29T09:24:58.427Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.enersistemi.com/en/solar-panels-lecce/</loc>
+<xhtml:link rel="alternate" hreflang="it-IT" href="https://www.enersistemi.com/fotovoltaico-lecce/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://www.enersistemi.com/en/solar-panels-lecce/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://www.enersistemi.com/fotovoltaico-lecce/" />
+<lastmod>2026-09-29T09:24:58.427Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.enersistemi.com/privacy/</loc>
+<xhtml:link rel="alternate" hreflang="it-IT" href="https://www.enersistemi.com/privacy/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://www.enersistemi.com/en/privacy/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://www.enersistemi.com/privacy/" />
+<lastmod>2026-09-29T09:24:58.427Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.2</priority>
+</url>
+<url>
+<loc>https://www.enersistemi.com/en/privacy/</loc>
+<xhtml:link rel="alternate" hreflang="it-IT" href="https://www.enersistemi.com/privacy/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://www.enersistemi.com/en/privacy/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://www.enersistemi.com/privacy/" />
+<lastmod>2026-09-29T09:24:58.427Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.2</priority>
 </url>
 </urlset>
