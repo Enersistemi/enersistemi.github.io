@@ -28,6 +28,13 @@ RewriteRule ^2019/04/10/fotovoltaico-per-le-aziende-manutenzione-e-monitoraggio/
 RewriteRule ^(2019/01/16/obbligo-energie-rinnovabili-decreto|2019/03/19/pannelli-fotovoltaici-gratuiti-per-le-famiglie-meno-abbienti)/?$ https://www.enersistemi.com/#agevolazioni [R=301,L,NE]
 RewriteRule ^(2019/02/13/tanti-buoni-motivi-per-investire-nel-fotovoltaico|2019/02/09/3-miti-da-sfatare-sul-fotovoltaico)/?$ https://www.enersistemi.com/#faq [R=301,L,NE]
 RewriteRule ^(novita-e-opportunita|category/.*|20[0-9][0-9]/.*|page/[0-9]+)/?$ https://www.enersistemi.com/ [R=301,L,NE]
+# Indirizzi del sito ANCORA PRIMA del WordPress (2018 e precedenti), che Rank Math nel WP
+# rimandava ancora nel 2026 (tabella wp_rank_math_redirections del backup del 07/10/2026,
+# `contatti.html` visto l'ultima volta il 06/10/2026): qui vanno DRITTI alla pagina nuova, un salto solo.
+RewriteRule ^(realizzazione-impianti-fotovoltaici|impianti-domotici|wallbox-ricarica-di-veicoli-elettrici)/?$ https://www.enersistemi.com/#servizi [R=301,L,NE]
+RewriteRule ^(consulenza-e-preventivi|contatti\.html)/?$ https://www.enersistemi.com/#contatti [R=301,L,NE]
+RewriteRule ^(impianti-di-videosorveglianza|enersistemi-2|societa\.html)/?$ https://www.enersistemi.com/ [R=301,L,NE]
+RewriteRule ^pannelli-solari-ceglie-messapica\.html/?$ https://www.enersistemi.com/fotovoltaico-brindisi/ [R=301,L,NE]
 RewriteRule ^privacy-policy/?$ https://www.enersistemi.com/privacy/ [R=301,L,NE]
 # Meccanica di WordPress: sparita per sempre (410)
 RewriteRule ^(section[0-9].*|slider|feed|comments/feed|wp-json.*|xmlrpc\.php|wp-admin.*|wp-login\.php|wp-includes/.*|wp-content/.*)/?$ - [G,L]
